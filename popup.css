@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.popupBox {
+  width: 200px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: column;
+}
+.popupInfoTitle {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.popupInfoBox {
+  margin: 2px 4px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  border-bottom: 2px solid rgb(231, 231, 231);
+}
+.popupInfoBox:hover {
+  background-color: rgb(214, 214, 214);
+}
+.popupColorBox {
+  margin: 8px 2px 2px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popupColorView {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(10, 107, 244);
+}
+.popupColorHexValue {
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+.popupNotify {
+  margin-top: 8px;
+  text-align: center;
+}
